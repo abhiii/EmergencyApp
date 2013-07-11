@@ -11,6 +11,9 @@
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate,NSURLConnectionDelegate,NSURLConnectionDataDelegate>
+{
+    UINavigationController *nav;
+}
 
 @property(strong,nonatomic)CLLocationManager *Lmanager;
 @property (strong, nonatomic) UIWindow *window;
